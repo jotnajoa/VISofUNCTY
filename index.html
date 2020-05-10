@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Uncertainty</title>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=News+Cycle&display=swap" rel="stylesheet">
+    <link rel ='stylesheet' href='./style.css'>
+    <link rel ='stylesheet' href='./openingstyle.css'>
+</head>
+<section class='beginning'>
+<div class='pjtTitle'>
+    Sentiment Analyses of Twitter Data
+    
+</div>
+    <div class='explanation'>
+    Comparison of machine learning sentiment 
+    <br>
+    analysis of “jobs” tweets against traditional survey data.
+    
+</div>
+<div class='pagearrow'>
+</div>
+
+</section>
+<section class='detaildescription'>
+
+    <div class=convapproach>
+
+    </div>
+    <!-- <div class=appdescription></div> -->
+
+</section>
+
+
+<body class ='bodyclass' style='overflow:hidden'>
+
+    <div class="canvas">
+        <div class='legends'>
+            
+            <svg class='legendsymbol1'>
+                <text x=15 y=15 >Vadar Index</text>
+                <circle cx="5" cy="10" r="5">
+            </svg>
+
+            <svg class='legendsymbol2'>
+                <text x=15 y=15 >Textblob Index</text>
+                <circle cx="5" cy="10" r="5">
+            </svg>
+
+            <svg class='legendsymbol3'>
+                <text x=210 y=15>Vadar</text>
+                <text x=250 y=38 style='font-size:15px ;text-decoration:underline'>Gap In Between</text>
+                <text x=210 y=70>Textblob</text>                
+            </svg>
+
+            <svg class='legendsymbol4'>
+                <text x=0 y=60>ICS Index</text>
+                
+            </svg>
+        </div>
+        <div class='description'></div>
+    </div>
+    <div class='escroller' >
+
+        <!-- <svg class='note'></svg> -->
+
+        <div class="icsdescription">
+             <span class ='sidedescription'>
+             <strong style='text-decoration:underline; font-size:30px'>Index of Consumer Sentiment (ICS)</strong>
+             Traditional survey method used 
+             to evaluate the populations’ 
+             attitudes toward the economy.
+             
+            </span>
+        </div>
+
+        <div class='txtdescription'>
+            <span class ='sidedescription'>
+                <strong style='text-decoration:underline; font-size:30px'>Machine Learning Algorithms: TextBlob & Vadar</strong>
+                Two machine learning algorithms were used to assign sentiment scores 
+                between -1 and 1 to jobs related tweets with the intention of determining 
+                if the algorithms can serve as a full or partial replacement 
+                to costly traditional survey methods.
+               </span>
+        </div>
+
+        <div class='uncertaintyanimation'>
+            <span class ='sidedescription'>
+                <strong style='text-decoration:underline; font-size:30px'>UNCERTAINTY</strong>
+                The machine learning algorithms of TextBlob and Vadar provided differing sentiment 
+                scores for each tweet. This visualization explores the differences 
+                between those two values as a source of uncertainty within the data. 
+                The range between the values is demonstrated through a connecting line 
+                that expands and contracts within the space between the points. 
+                At a more detailed zoom level, the points move back and forth within the space 
+                between their values to demonstrate the range in which the tweet’s sentiment 
+                falls based on the algorithm selected
+            
+            <svg class='lastarrow'>
+            </svg>
+            <p id='lasttext'><a href='./link/index.html'>Explore More</a></p>
+        </span>
+
+        </div>
+
+
+    </div>
+
+    <div class="scroller">
+          
+          <div class="allDots"><span class="yearletter1">--2007</span></div>
+        
+          <div class="forceLink"><span class="yearletter">--2008</span></div>
+
+          <div class="forceX"><span class="yearletter">--2009</span></div>
+ 
+        
+    </div>
+    
+
+<!-- <script src="https://d3js.org/d3-timer.v1.min.js"></script> -->
+
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.15.1/d3.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+<!-- <script src="./main.js"></script> -->
+<script src="./opening.js"></script>
+</body>

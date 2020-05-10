@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Uncertainty</title>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=News+Cycle&display=swap" rel="stylesheet">
+    <link rel ='stylesheet' href='./style.css'>
+</head>
+<body style='overflow:hidden'>
+    
+    <div class="canvas">
+        <div class='legends'>
+            
+            <svg class='legendsymbol1'>
+                <text x=15 y=15 >Vadar Index</text>
+                <circle cx="5" cy="10" r="5">
+            </svg>
+
+            <svg class='legendsymbol2'>
+                <text x=15 y=15 >Textblob Index</text>
+                <circle cx="5" cy="10" r="5">
+            </svg>
+
+            <svg class='legendsymbol3'>
+                <text x=210 y=15>Vadar</text>
+                <text x=250 y=38 style='font-size:15px ;text-decoration:underline'>Difference in Values</text>
+                <text x=210 y=70>Textblob</text>                
+            </svg>
+
+            <svg class='legendsymbol4'>
+                <text x=0 y=60>ICS Index</text>
+                
+            </svg>
+        </div>
+        <div class='description'></div>
+    </div>
+    
+    <div class="scroller">
+          
+          <div class="firstYear"><span class="yearletter1">--2007</span></div>
+        
+          <div class="secondYear"><span class="yearletter">--2008</span></div>
+
+          <div class="thirdYear"><span class="yearletter">--2009</span></div>
+ 
+        
+    </div>
+    
+
+<!-- <script src="https://d3js.org/d3-timer.v1.min.js"></script> -->
+
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.15.1/d3.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+<script src="./main.js"></script>
+</body>

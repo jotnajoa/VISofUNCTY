@@ -1,0 +1,175 @@
+.dashline{
+    stroke-dasharray: 2,2; 
+}
+.legends{
+    width:87%;
+    height:100px;
+    background-color:rgba(255, 255, 255, 0.226);
+    padding:20px 5px 5px 5px;
+    border-radius: 15px;
+}
+.legends > svg {
+    width:600px;
+    margin:0;
+    position:absolute;
+    padding:4px;
+
+}
+
+.legendsymbol1{display:block; height:50px; margin:0; padding:0;}
+.legendsymbol2{display:block; height:50px;margin:0;padding:0; top:74px;}
+.legendsymbol3{display:inline;height:100px; margin:0; padding:0;}
+.legendsymbol4{display:inline;height:100px; margin:0; padding:0;left:420px;top:-25px}
+
+.legendsymbol1 > circle{fill:rgba(242, 118, 51, 0.886)}
+.legendsymbol2 > circle{fill:rgba(212, 209, 51, 0.76)}
+
+
+.legendsymbol1 > text{fill:rgba(221, 221, 221, 0.8);font-size:20px;font-family:'News Cycle', sans-serif;margin:0;}
+.legendsymbol2 > text{fill:rgba(221, 221, 221, 0.8);font-size:20px;font-family:'News Cycle', sans-serif;margin:0;}
+.legendsymbol3 > text{fill:rgba(221, 221, 221, 0.8);font-size:20px;font-family:'News Cycle', sans-serif;margin:0;}
+.legendsymbol4 > text{fill:rgba(221, 221, 221, 0.8);font-size:20px;font-family:'News Cycle', sans-serif;margin:0;}
+
+body{
+    /* background-color: rgba(15, 11, 11, 0.911); */
+    background-image: radial-gradient(rgb(15, 11, 11),rgba(15, 11, 11, 0.87));
+    margin:0;
+    
+    /* color:white */
+}
+
+.scroller{   
+    box-sizing: border-box;
+    width:5%;
+    float:left;
+    position:relative;
+}
+
+.canvas{
+    
+    box-sizing: border-box;
+    width:100%;
+    height:100vh;
+    top:30px;
+    left:10%;
+    position: fixed;
+    
+}
+
+.firstYear{
+/*    border: 1px solid blue;*/
+
+/*    opacity:0.2;*/
+    height:100vh;
+    width:100%;
+/*    margin-top:1%;*/
+/*    left:35%;*/
+    /* position: relative; */
+}
+.firstYear > svg{
+width:4px;
+height:100vh;
+/* color:linear-gradient(to bottom, red, white) */
+}
+.firstYear > svg{
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.157), rgba(255, 255, 255, 0.815),rgba(255, 255, 255, 0.123))
+ }
+
+.secondYear{
+    /*    border: 1px solid blue;*/
+    
+    /*    opacity:0.2;*/
+
+        height:100vh;
+        width:100%;
+    /*    margin-top:1%;*/
+       left:-2px;
+        position: relative;
+}
+.secondYear > svg{
+    width:4px;
+    height:100vh;
+    /* color:linear-gradient(to bottom, red, white) */
+}
+.secondYear > svg{
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.157), rgba(255, 255, 255, 0.815),rgba(255, 255, 255, 0.123))
+ }
+
+ .thirdYear{
+/*    border: 1px solid blue;*/
+
+/*    opacity:0.2;*/
+
+    height:100vh;
+    width:100%;
+/*    margin-top:1%;*/
+    left:-2px;
+    position: relative;
+}
+.thirdYear > svg{
+width:4px;
+height:100vh;
+/* color:linear-gradient(to bottom, red, white) */
+}
+.thirdYear > svg{
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.157), rgba(255, 255, 255, 0.815),rgba(255, 255, 255, 0.123))
+ }
+
+.xaxis{
+    color:rgba(255, 255, 255, 0.692);
+    font-family: 'News Cycle', sans-serif;
+    font-size:12px;
+    z-index:2;
+    padding:0px
+}
+
+.areagraph{
+    fill:rgba(82, 229, 255, 0.445);
+    stroke:none;
+    /* stroke-dasharray:1,1; */
+    /* stroke-width:0.2px; */
+    /* stroke-opacity:0.8; */
+}
+
+
+p{
+    color:rgba(255, 255, 255, 0.897)
+    
+}
+
+.circles1{
+    fill:none;
+    /* stroke:gold */
+
+
+}
+.circles2{
+    fill:none;
+    /* stroke:peachpuff */
+
+
+}
+
+.yearletter{
+    position:relative;
+    color:white;
+    left:52px;
+    top:-500px;
+    font-size:20px;
+    font-family: 'News Cycle', sans-serif;
+
+
+}
+
+.yearletter1{
+    position:relative;
+    color:white;
+    left:52px;
+    top:-680px;
+    font-size:20px;
+    font-family: 'News Cycle', sans-serif;
+}
+
+h4{
+    color:red
+}
