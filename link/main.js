@@ -98,7 +98,7 @@ Promise.all([
     color2='rgba(212, 209, 51, 0.76)';
     color1b='rgba(242, 118, 51, 0.886)'
     color2b='rgba(212, 209, 51, 0.76)';
-    clearcolor='rgba(189, 189, 189, 0.055)'
+    clearcolor='rgba(189, 189, 189, 0.015)'
     var parser = d3.timeParse("%m/%d/%y")
     
     // Conventional Data processing
@@ -560,7 +560,7 @@ setTimeout(secondstage,500)
                        .attr('cy',function(d, i){
                             return height-yscale(     ( sdata[i].vader +sdata1[i].vader ) *1/2        )
                         })
-                       .style('fill','none')}
+                       .style('fill',clearcolor)}
                     },3000)
                             
             d3.interval(()=>{
@@ -579,7 +579,7 @@ setTimeout(secondstage,500)
                        .attr('cy',function(d, i){
                             return height-yscale(   (sdata[i].textblob+sdata1[i].textblob)*1/2       )
                         })
-                        .style('fill','none')}
+                        .style('fill',clearcolor)}
                     },3000)
 
         
