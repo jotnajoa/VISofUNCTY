@@ -105,7 +105,7 @@ Promise.all([
     color2='rgba(212, 209, 51, 0.76)'
     color1b='rgba(242, 118, 51, 0.886)'
     color2b='rgba(112, 99, 230, 0.828)'
-    clearcolor='rgba(189, 189, 189, 0.355)'
+    clearcolor='rgba(189, 189, 189, 0.055)'
     var parser = d3.timeParse("%m/%d/%y")
     
     // Conventional Data processing
