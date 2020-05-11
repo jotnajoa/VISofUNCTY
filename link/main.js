@@ -617,7 +617,7 @@ setTimeout(secondstage,500)
                     .attr('cx',function(d){return margin+xscale(d.date)})
                     .attr('cy',function(d){return height-yscale(d.vader)})
                     .call(d3.helping.tooltip())
-                    .style('fill',clearcolor)
+                    .style('fill','none')
                     .attr('r',0)
 
             
@@ -626,7 +626,7 @@ setTimeout(secondstage,500)
             .attr('cx',function(d){return margin+xscale(d.date)})
             .attr('cy',function(d){return height-yscale(d.textblob)})
             .call(d3.helping.tooltip())
-            .style('fill',clearcolor)
+            .style('fill','none')
             .attr('r',0)
             
 
