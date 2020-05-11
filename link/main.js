@@ -560,7 +560,7 @@ setTimeout(secondstage,500)
                        .attr('cy',function(d, i){
                             return height-yscale(     ( sdata[i].vader +sdata1[i].vader ) *1/2        )
                         })
-                       .style('fill','rgba(255, 255, 255, 0.05)')}
+                       .style('fill','none'}
                     },3000)
                             
             d3.interval(()=>{
@@ -579,7 +579,7 @@ setTimeout(secondstage,500)
                        .attr('cy',function(d, i){
                             return height-yscale(   (sdata[i].textblob+sdata1[i].textblob)*1/2       )
                         })
-                        .style('fill','rgba(255, 255, 255, 0.05)')}
+                        .style('fill','none')}
                     },3000)
 
         
